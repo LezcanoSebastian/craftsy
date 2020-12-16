@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home{
+    width: 1140px;
+}
+.home header{
+    background-color: orangered;
+    padding: 10px 0px;
+    margin-top: 10px;
+    overflow: hidden;
+   /*  box-sizing: border-box;
+    align-content: space-around; */
+}
+.navegar {
+    display: block;
+    float: left;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+.registro{
+    float: right;
+    display: block;
+    padding-right: 10px;
+    padding-top: 10px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+body .home nav ul li a{
+    font-weight: lighter;
+   
+}
+.home li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo{
+    display:block;
+    float: left;
+    padding-left: 10px;
+}
+
+body{
+    background-image: url("../img/bg-2.png");   
+}
+
+.home main{
+    display: block;
+    width: 800px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+   
+}
+.home main section{
+    width: 380px;
+
+    float: left; 
+    margin: 10px; 
+} 
+.home main section p{
+    line-height: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.home main section h2{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+.home main section img{
+    width: 100%;
+}
+button{
+        background-color: orangered;
+        padding: 5px 5px;
+        margin-bottom: 10px;
+        border:none;
+        font-weight: bold;
+} 
+button:hover{
+    background-color: skyblue;
+    color: black;
+}
+ aside{
+    display: block;
+    float: right;
+    width: 320px;
+    overflow: hidden;
+    box-sizing: border-box;
+   
+ } 
+ .home aside section article{
+     border: 1px solid skyblue;
+ }
+ .home aside section article img{
+    overflow: hidden;
+    box-sizing: border-box;   
+ }
+ 
+ .home aside section h2{
+     background-color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid skyblue;
+ }
+ .home aside section a{
+     color: black;
+     float: right;
+     width: 58%;
+     text-transform: capitalize;
+     padding-top: 15px;
+     padding-left: 5px;
+     font-weight: bolder;
+ }
+ .home aside section img{
+     width: 40%;
+ }
+ section article{
+    background-color: white;
+     padding: 5px 5px;
+     color: black;
+ }
+ .home aside section div{
+     background-color: white;
+     border: 1px solid skyblue;
+ }
+ .home aside section div img{
+     width: 100%;
+     padding:10px
+ }
